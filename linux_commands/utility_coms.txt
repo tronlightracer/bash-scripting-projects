@@ -1,0 +1,14 @@
+Having the terminal display a visual calendar
+'cal' displays the current month with the day highlighted
+'cal' 'year' i.e. cal 2020 displays the entire year of 2020
+'cal' '-A 4' would display the current month and the next 4 months
+'cal' '4' '2015' would display the month of april in the year 2015
+
+CREATING SHORTCUT FOR PYTHON SCRIPTS IN TERMINAL
+
+1. Type in first line of python code:
+#! /usr/bin/python3
+2. Run command in terminal:
+chmod +x scriptname.py
+3. How to use:
+type './scriptname.py' without qoutes in terminal to run a particular script without having to type python3 before it.

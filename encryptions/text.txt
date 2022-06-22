@@ -1,0 +1,3 @@
+This is a text file
+It is very basic
+It only has text in and at that no special characters

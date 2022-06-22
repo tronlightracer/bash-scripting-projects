@@ -1,0 +1,9 @@
+chmod +x adds executable permisions to the user, group and everyone else
+chmod -x removes executable permisions to the user, group and everyone else
+chmod -xwr removes executable, write and read permisions to the file
+
+numerical:
+4 = read, 2 = write, 1 = executable
+744 would give read, write and executable permisions to the user while the group and everyone else just has read permisions
+
+777 would give read, write and executable permisions to the user, group and everyone else

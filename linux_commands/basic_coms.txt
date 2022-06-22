@@ -1,0 +1,24 @@
+Changing Directories. the 'cd' phrase changes directories or folders. ex:
+'cd Documents/atbs' changes the directory from where ever it is to atbs.
+
+Seeing All the files in a specified directory. to see a list of all items in a directory type 'ls' to see a list of items in a dir.
+
+Seeing a visual representation of the current working directory. Use the 'tree' command to view a hierarchical list of where folders and files are that looks like a tree with branches that are directories within directories.
+EX: ~/Documents/linux_commands$ tree
+
+Make a Directory. mkdir. The mkdir command makes a directory in the current working directory
+
+** Tab Completion **. if youre unsure of the complete word of a command type what you know and hit tab twice to see a list of commands that have those starting letters.
+EX: tr (tab)(tab) 
+tr	traceroute6	tracker	transmission-gtk	trap	troff	truncate	tracepath	traceroute6.iputils	transicc	transset	tree	true	trust
+
+Launching programs while still being able to use the terminal. '& disown'. when launching a program typically you type the program(space)the file name. if you type & disown after the file name it allows the terminal to still be able to be useful. dont know why the terminal gets stucks when not using & disown. ask shail.
+
+launching google chrome from terminal google-chrome & disown
+
+Reading files with cat. cat filename.filetype
+
+Making a new file. cat > name_of_file.filetype
+
+Open files with their default application.
+xdg-open filename.txt

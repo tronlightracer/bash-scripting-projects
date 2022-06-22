@@ -1,0 +1,8 @@
+Once initialized every unix program has a least 3 open files:
+stdin: standard input (keyboard)
+stdout: standard output (screen)
+stderr: standard error output (screen)
+
+when writing a script:
+- always read user-input from stdin
+- always write diagnostic/error/warning messages to stderr
