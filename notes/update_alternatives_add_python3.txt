@@ -1,0 +1,4 @@
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 3
+
+the first directory is the link you want to create from the 2nd directory is the actual path to the program
+the number at the end is the priority between versions

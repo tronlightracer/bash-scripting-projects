@@ -1,5 +1,5 @@
 #! /usr/bin/bash
-NAME="trevor"
+NAME="trev"
 if [ whoami = $NAME ]
 then
     echo "Welcome $NAME"

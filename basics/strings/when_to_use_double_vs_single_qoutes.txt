@@ -1,0 +1,14 @@
+use single qoutes when declaring a string without shell variables in it
+use double qoutes when you want to expand shell variables
+
+name='Trevor'
+greet="Hello, Welcome to my enclave $name"
+echo $greet
+# returns
+Hello, Welcome to my enclave Trevor
+
+name='Trevor'
+greet='Hello, Welcome to my enclave $name'
+echo $greet
+# returns
+Hello, Welcome to my enclave $name

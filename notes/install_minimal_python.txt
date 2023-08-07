@@ -1,0 +1,4 @@
+when updating the update alternatives list it got rid of a symlink for python minimal so when that happens open a folder then right click to open terminal.
+
+then run:
+sudo apt --reinstall install python3-minimal
